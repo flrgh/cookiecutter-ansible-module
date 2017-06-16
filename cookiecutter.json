@@ -1,0 +1,42 @@
+{
+    "module_name": "My Module",
+    "module_slug": "{{ cookiecutter.module_name.lower().replace(' ', '_') }}",
+    "module_description": "A basic ansible module",
+    "module_version": "0.1",
+    "ansible_introduced_version": 2.3,
+    "modules_dir": "modules",
+    "module_spec": {
+        "arguments": [
+            {
+                "name": "my_string",
+                "description": "A required string argument",
+                "type": "str",
+                "required": true,
+                "default": null
+            },
+            {
+                "name": "my_int",
+                "description": "An integer with default value 1",
+                "type": "int",
+                "default": 1
+            },
+            {
+                "name": "my_path",
+                "description": "Some filesystem path that you might care about",
+                "type": "path"
+            },
+            {
+                "name": "my_list",
+                "description": "This one's a list!",
+                "type": "list"
+            },
+            {
+                "name": "my_bool",
+                "description": "this one's just true or false",
+                "type": "bool",
+                "default": true
+            }
+        ]
+    }
+
+}
