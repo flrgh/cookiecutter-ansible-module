@@ -3,7 +3,6 @@
     "module_slug": "{{ cookiecutter.module_name.lower().replace(' ', '_') }}",
     "module_description": "A basic ansible module",
     "module_version": "0.1",
-    "ansible_introduced_version": 2.3,
     "modules_dir": "modules",
     "module_spec": {
         "arguments": [

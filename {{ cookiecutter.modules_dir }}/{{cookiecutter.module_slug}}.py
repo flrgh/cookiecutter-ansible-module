@@ -4,7 +4,6 @@
 DOCUMENTATION = '''
 ---
 module: 
-version_added: "{{ cookiecutter.ansible_introduced_version }}"
 short_description: "{{ cookiecutter.module_description }}"
 description:
      - "{{ cookiecutter.module_description }}"
